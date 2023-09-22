@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
   });
 
   const sendVerificationEmail = (email, userId) => {
-    const verificationLink = `http://localhost:3000/verify/${userId}`;
+    const verificationLink = `https://fine-neckerchief-fox.cyclic.cloud/verify/${userId}`;
   
     // Slanje e-maila
     const mailOptions = {
